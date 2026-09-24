@@ -1,0 +1,18 @@
+# AI Model Configuration
+# Add models here — each needs a unique id, display name, and api_url.
+# The api_url must point to an endpoint that accepts:
+#   POST { user_id, messages: [{role, content}] }
+# and returns a text/event-stream SSE:
+#   data: {"delta": "..."} ... data: [DONE]
+
+models:
+  - id: milk-sell-bot-1
+    name: "milk-sell-bot 1.0"
+    description: "NutriBot — AI tư vấn dinh dưỡng Abbott"
+    api_url: "http://localhost:8000/chat/stream"
+
+  # Add more models below:
+  # - id: my-custom-model
+  #   name: "Custom Model 2.0"
+  #   description: "My custom AI"
+  #   api_url: "http://localhost:9000/chat/stream"

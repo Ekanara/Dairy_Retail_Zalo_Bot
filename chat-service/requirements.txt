@@ -1,0 +1,16 @@
+# ── Web framework ────────────────────────────────────────────────────────────
+fastapi==0.115.0
+uvicorn[standard]==0.30.6
+
+# ── Database (PostgreSQL async) ──────────────────────────────────────────────
+sqlalchemy[asyncio]==2.0.31
+asyncpg>=0.30.0  # Python 3.13 compatible
+alembic==1.13.2
+
+# ── Redis (async) ────────────────────────────────────────────────────────────
+redis[hiredis]==5.0.8
+
+# ── Data validation & settings ────────────────────────────────────────────────
+pydantic==2.12.5
+pydantic-settings==2.13.1
+python-dotenv==1.0.1

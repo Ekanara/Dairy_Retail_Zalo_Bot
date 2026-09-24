@@ -1,0 +1,299 @@
+services:
+  postgres:
+    image: pgvector/pgvector:pg16
+    container_name: magic-postgres
+    environment:
+      POSTGRES_USER: postgres
+      POSTGRES_PASSWORD: postgres
+      POSTGRES_DB: magic_sale
+    ports:
+      - "5434:5432"
+    volumes:
+      - postgres_data:/var/lib/postgresql/data
+      - ./postgres/init.sql:/docker-entrypoint-initdb.d/init.sql
+    healthcheck:
+      test: ["CMD-SHELL", "pg_isready -U postgres -d magic_sale"]
+      interval: 10s
+      timeout: 5s
+      retries: 5
+    networks:
+      - magic-sale-net
+
+  redis:
+    image: redis:7-alpine
+    container_name: magic-redis
+    ports:
+      - "6379:6379"
+    volumes:
+      - redis_data:/data
+    command: redis-server --appendonly yes --maxmemory 256mb --maxmemory-policy allkeys-lru
+    healthcheck:
+      test: ["CMD", "redis-cli", "ping"]
+      interval: 10s
+      timeout: 3s
+      retries: 3
+    networks:
+      - magic-sale-net
+
+  data-service:
+    build:
+      context: ../data-service
+      dockerfile: ../infrastructure/dockerfiles/Dockerfile.python
+    container_name: magic-data
+    command: uvicorn main:app --host 0.0.0.0 --port 8002
+    ports:
+      - "8002:8002"
+    env_file: ../data-service/.env
+    environment:
+      DATABASE_URL: postgresql+asyncpg://postgres:postgres@postgres:5432/magic_sale
+    depends_on:
+      postgres:
+        condition: service_healthy
+    networks:
+      - magic-sale-net
+    restart: unless-stopped
+
+  order-service:
+    build:
+      context: ../order-service
+      dockerfile: ../infrastructure/dockerfiles/Dockerfile.python
+    container_name: magic-order
+    command: uvicorn main:app --host 0.0.0.0 --port 8003
+    ports:
+      - "8003:8003"
+    env_file: ../order-service/.env
+    environment:
+      DATABASE_URL: postgresql+asyncpg://postgres:postgres@postgres:5432/magic_sale
+      ZALO_SERVICE_URL: http://zalo-service:8080
+      SEPAY_API_KEY: ${SEPAY_API_KEY:-}
+      SMTP_HOST: smtp.gmail.com
+      SMTP_PORT: "587"
+      SMTP_USER: botbansua@gmail.com
+      SMTP_PASSWORD: "wjgl rgwz pfmw idrm"
+      SMTP_FROM_NAME: "Nhà Sữa"
+      SMTP_FROM_EMAIL: botbansua@gmail.com
+      EMAIL_ENABLED: "true"
+    depends_on:
+      postgres:
+        condition: service_healthy
+    networks:
+      - magic-sale-net
+    restart: unless-stopped
+
+  prompt-service:
+    build:
+      context: ../prompt-service
+      dockerfile: ../infrastructure/dockerfiles/Dockerfile.python
+    container_name: magic-prompt
+    command: uvicorn main:app --host 0.0.0.0 --port 8001
+    ports:
+      - "8001:8001"
+    env_file: ../prompt-service/.env
+    environment:
+      DATABASE_URL: postgresql+asyncpg://postgres:postgres@postgres:5432/magic_sale
+    depends_on:
+      postgres:
+        condition: service_healthy
+    networks:
+      - magic-sale-net
+    restart: unless-stopped
+
+  models-service:
+    build:
+      context: ../models-service
+      dockerfile: ../infrastructure/dockerfiles/Dockerfile.python
+    container_name: magic-models
+    command: uvicorn main:app --host 0.0.0.0 --port 8000
+    ports:
+      - "8000:8000"
+    env_file: ../models-service/.env
+    environment:
+      PROMPT_SERVICE_URL: http://prompt-service:8001
+      MCP_SERVICE_URL: http://mcp-service:8004
+      CHAT_SERVICE_URL: http://chat-service:8007
+    depends_on:
+      - prompt-service
+      - chat-service
+    networks:
+      - magic-sale-net
+    restart: unless-stopped
+
+  mcp-service:
+    build:
+      context: ../mcp-service
+      dockerfile: ../infrastructure/dockerfiles/Dockerfile.python
+    container_name: magic-mcp
+    command: python main.py
+    env_file: ../mcp-service/.env
+    environment:
+      DATABASE_URL: postgresql+asyncpg://postgres:postgres@postgres:5432/magic_sale
+      PROMPT_SERVICE_URL: http://prompt-service:8001
+      ORDER_SERVICE_URL: http://order-service:8003
+      ZALO_SERVICE_URL: http://zalo-service:8080
+      RAG_SERVICE_URL: http://rag-service:8006
+      MCP_TRANSPORT: http
+      MCP_PORT: "8004"
+      SMTP_HOST: smtp.gmail.com
+      SMTP_PORT: "587"
+      SMTP_USER: botbansua@gmail.com
+      SMTP_PASSWORD: "wjgl rgwz pfmw idrm"
+      SMTP_FROM_NAME: "Nhà Sữa"
+      SMTP_FROM_EMAIL: botbansua@gmail.com
+      EMAIL_FROM: "Nhà Sữa <botbansua@gmail.com>"
+      EMAIL_ENABLED: "true"
+    ports:
+      - "8004:8004"
+    depends_on:
+      postgres:
+        condition: service_healthy
+      order-service:
+        condition: service_started
+    networks:
+      - magic-sale-net
+    restart: unless-stopped
+
+  zalo-service:
+    build:
+      context: ../zalo-service
+      dockerfile: ../infrastructure/dockerfiles/Dockerfile.python
+    container_name: magic-zalo
+    command: python main.py --mode polling
+    ports:
+      - "8080:8080"
+    env_file: ../zalo-service/.env
+    environment:
+      MODEL_SERVICE_URL: http://models-service:8000
+    depends_on:
+      - models-service
+    networks:
+      - magic-sale-net
+    restart: unless-stopped
+
+  # ──────────────────────────────────────────────────────────────
+  # Chat Service (Conversation History Cache)
+  # ──────────────────────────────────────────────────────────────
+  chat-service:
+    build:
+      context: ../chat-service
+      dockerfile: ../infrastructure/dockerfiles/Dockerfile.python
+    container_name: magic-chat
+    command: uvicorn main:app --host 0.0.0.0 --port 8007
+    ports:
+      - "8007:8007"
+    env_file: ../chat-service/.env
+    environment:
+      DATABASE_URL: postgresql+asyncpg://postgres:postgres@postgres:5432/magic_sale
+      REDIS_URL: redis://redis:6379/0
+      SERVICE_PORT: 8007
+    depends_on:
+      postgres:
+        condition: service_healthy
+      redis:
+        condition: service_healthy
+    networks:
+      - magic-sale-net
+    restart: unless-stopped
+
+  # ──────────────────────────────────────────────────────────────
+  # RAG Service (Hybrid Search + Reranking + MMR)
+  # ──────────────────────────────────────────────────────────────
+  qdrant:
+    image: qdrant/qdrant:v1.11.3
+    container_name: magic-qdrant
+    ports:
+      - "6333:6333"
+      - "6334:6334"
+    volumes:
+      - qdrant_data:/qdrant/storage
+    environment:
+      - QDRANT__SERVICE__GRPC_PORT=6334
+    networks:
+      - magic-sale-net
+    healthcheck:
+      test: ["CMD-SHELL", "bash -c 'echo > /dev/tcp/localhost/6333'"]
+      interval: 10s
+      timeout: 5s
+      retries: 5
+    restart: unless-stopped
+
+  tei-reranker:
+    image: ghcr.io/huggingface/text-embeddings-inference:cpu-1.6
+    container_name: magic-tei-reranker
+    ports:
+      - "8005:80"
+    volumes:
+      - tei_data:/data
+    environment:
+      - PORT=80
+      - HF_HUB_ENABLE_HF_TRANSFER=0
+    command:
+      - --model-id
+      - BAAI/bge-reranker-v2-m3
+      - --revision
+      - main
+      - --port
+      - "80"
+    networks:
+      - magic-sale-net
+    deploy:
+      resources:
+        limits:
+          memory: 4G
+    healthcheck:
+      test: ["CMD-SHELL", "bash -c 'echo > /dev/tcp/localhost/80'"]
+      interval: 30s
+      timeout: 10s
+      retries: 5
+      start_period: 120s
+    restart: unless-stopped
+
+  rag-service:
+    build:
+      context: ../rag-service
+      dockerfile: ../infrastructure/dockerfiles/Dockerfile.python
+    container_name: magic-rag
+    command: uvicorn main:app --host 0.0.0.0 --port 8006
+    ports:
+      - "8006:8006"
+    env_file: ../rag-service/.env
+    environment:
+      QDRANT_HOST: qdrant
+      QDRANT_PORT: 6333
+      TEI_RERANKER_URL: http://tei-reranker:80
+      SERVICE_PORT: 8006
+    depends_on:
+      qdrant:
+        condition: service_healthy
+      tei-reranker:
+        condition: service_healthy
+    networks:
+      - magic-sale-net
+    restart: unless-stopped
+
+  # ──────────────────────────────────────────────────────────────
+  # OPTIONAL: Nginx reverse proxy (uncomment for production)
+  # ──────────────────────────────────────────────────────────────
+  # nginx:
+  #   image: nginx:alpine
+  #   container_name: magic-nginx
+  #   ports:
+  #     - "80:80"
+  #     - "443:443"
+  #   volumes:
+  #     - ./nginx/nginx.conf:/etc/nginx/conf.d/default.conf:ro
+  #   depends_on:
+  #     - zalo-service
+  #     - models-service
+  #   networks:
+  #     - magic-sale-net
+  #   restart: unless-stopped
+
+volumes:
+  postgres_data:
+  redis_data:
+  qdrant_data:
+  tei_data:
+
+networks:
+  magic-sale-net:
+    driver: bridge

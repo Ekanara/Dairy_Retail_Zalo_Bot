@@ -1,0 +1,31 @@
+@import "tailwindcss";
+
+:root {
+  --bg: rgb(250, 249, 245);
+  --bg-000: rgb(255, 255, 255);
+  --text: rgb(20, 20, 19);
+  --text-500: rgb(61, 61, 58);
+  --text-400: rgb(115, 114, 108);
+  --border: rgba(31, 30, 29, 0.15);
+  --font-sans: "Anthropic Sans", system-ui, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
+  --font-serif: "Anthropic Serif", Georgia, "Times New Roman", serif;
+  --font-mono: "Anthropic Mono", ui-monospace, monospace;
+}
+
+@theme inline {
+  --color-background: var(--bg);
+  --color-foreground: var(--text);
+  --font-sans: var(--font-sans);
+}
+
+body {
+  background: var(--bg);
+  color: var(--text);
+  font-family: var(--font-sans);
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+* {
+  box-sizing: border-box;
+}
