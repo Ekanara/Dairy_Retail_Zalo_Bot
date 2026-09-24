@@ -1,6 +1,6 @@
-# Infrastructure — Magic Sale AI
+# Infrastructure — Dairy AI
 
-Quản lý toàn bộ infrastructure cho hệ thống Magic Sale AI: 6 Python microservices + PostgreSQL (pgvector) + Redis.
+Quản lý toàn bộ infrastructure cho hệ thống Dairy AI: 6 Python microservices + PostgreSQL (pgvector) + Redis.
 
 ## Cấu trúc thư mục
 

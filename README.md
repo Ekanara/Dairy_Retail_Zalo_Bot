@@ -1,24 +1,19 @@
 <a id="readme-top"></a>
 
 <div align="center">
-  <img src="images/logo.png.jpeg" alt="Sale Magic AI" width="400" />
+  <h1>Dairy AI</h1>
 
   <br />
   <br />
 
   **AN AI SALES ASSISTANT THAT SELLS LIKE A HUMAN — ON ZALO**
 
-  [![Contributors][contributors-shield]][contributors-url]
-  [![Forks][forks-shield]][forks-url]
-  [![Stargazers][stars-shield]][stars-url]
-  [![Issues][issues-shield]][issues-url]
-  [![GPL v3 License][license-shield]][license-url]
 
   A multi-service AI chatbot that lives inside **Zalo** — Vietnam's #1 messaging app.<br />
   It remembers who you are, discovers what you need, and walks you through a complete purchase<br />
   using **SPIN Selling** methodology — from "hello" to order confirmation — through natural conversation.
 
-  [Explore the Docs](https://github.com/magic-sales/magic-sale-ai) · [Report Bug](https://github.com/magic-sales/magic-sale-ai/issues/new?labels=bug&template=bug-report---.md) · [Request Feature](https://github.com/magic-sales/magic-sale-ai/issues/new?labels=enhancement&template=feature-request---.md)
+  [Explore the Docs](https://github.com/Ekanara/Dairy_Retail_Zalo_Bot) · [Report Bug](https://github.com/Ekanara/Dairy_Retail_Zalo_Bot/issues/new?labels=bug&template=bug-report---.md) · [Request Feature](https://github.com/Ekanara/Dairy_Retail_Zalo_Bot/issues/new?labels=enhancement&template=feature-request---.md)
 
 </div>
 
@@ -28,7 +23,7 @@
 
 Most e-commerce chatbots dump a product list the moment you say "hi". That's a search engine with a chat bubble — not selling.
 
-**Magic Sale AI** implements **SPIN Selling** as an AI agent. It first *understands who you are*, then *discovers what you need*, then *recommends the right product*, and only then *closes the sale*. If you say "no", it handles objections like a trained salesperson (up to 3 times, then gracefully exits).
+**Dairy AI** implements **SPIN Selling** as an AI agent. It first *understands who you are*, then *discovers what you need*, then *recommends the right product*, and only then *closes the sale*. If you say "no", it handles objections like a trained salesperson (up to 3 times, then gracefully exits).
 
 Every conversation feels like talking to a knowledgeable friend, not a robot.
 
@@ -49,7 +44,7 @@ Every conversation feels like talking to a knowledgeable friend, not a robot.
 ## Architecture
 
 <div align="center">
-  <img src="images/pipline.png" alt="Magic Sale AI Architecture" width="700" />
+  <img src="images/pipline.png" alt="Dairy AI Architecture" width="700" />
 </div>
 
 <br />
@@ -66,7 +61,7 @@ The orchestrator (`models-service`) does four things on every message:
 ## How It Works
 
 ```
-Customer                    Magic Sale AI
+Customer                    Dairy AI
    │
    │  "Chào shop!"
    ├──────────────────▶  Zalo webhook receives message
@@ -100,7 +95,7 @@ Customer                    Magic Sale AI
 
 ### The Prompt Architecture — Why Every Conversation Feels Different
 
-Most chatbots use one system prompt for everyone. Magic Sale AI builds a **unique prompt per customer** by combining six modular components at request time:
+Most chatbots use one system prompt for everyone. Dairy AI builds a **unique prompt per customer** by combining six modular components at request time:
 
 ```
 ┌─────────────────────────────────────────────────────┐
@@ -271,8 +266,8 @@ When a customer says "Ba em bị tiểu đường" (My dad has diabetes), the AI
 ### Docker (full stack)
 
 ```bash
-git clone https://github.com/magic-sales/magic-sale-ai.git
-cd magic-sale-ai/infrastructure
+git clone https://github.com/Ekanara/Dairy_Retail_Zalo_Bot.git
+cd Dairy_Retail_Zalo_Bot/infrastructure
 
 make setup       # copies .env, builds images, runs migrations, imports data
 make up          # start all services
@@ -282,8 +277,8 @@ make health      # verify everything is running
 ### Local Development
 
 ```bash
-git clone https://github.com/magic-sales/magic-sale-ai.git
-cd magic-sale-ai
+git clone https://github.com/Ekanara/Dairy_Retail_Zalo_Bot.git
+cd Dairy_Retail_Zalo_Bot
 
 cd infrastructure && make dev-infra   # start only PostgreSQL + Redis
 cd ..
@@ -358,7 +353,7 @@ Each service reads from its own `.env` file. See each service's `.env.example` f
 - [ ] Multi-channel support (Facebook Messenger, Telegram)
 - [ ] Voice message processing
 
-See the [open issues](https://github.com/magic-sales/magic-sale-ai/issues) for a full list.
+See the [open issues](https://github.com/Ekanara/Dairy_Retail_Zalo_Bot/issues) for a full list.
 
 ---
 
@@ -374,10 +369,6 @@ Contributions are **greatly appreciated**. Fork the repo and create a pull reque
 
 We follow [Conventional Commits](https://www.conventionalcommits.org/) — use `feat:`, `fix:`, `chore:`, `docs:` prefixes.
 
-<a href="https://github.com/magic-sales/magic-sale-ai/graphs/contributors">
-  <img src="https://contrib.rocks/image?repo=magic-sales/magic-sale-ai" alt="Contributors" />
-</a>
-
 ---
 
 ## License
@@ -386,7 +377,7 @@ Distributed under the **GNU General Public License v3.0**. See `LICENSE` for mor
 
 ## Contact
 
-**Team Magic Sales** — [Project Link](https://github.com/magic-sales/magic-sale-ai)
+**Dairy AI** — [Project Link](https://github.com/Ekanara/Dairy_Retail_Zalo_Bot)
 
 ## Acknowledgments
 
@@ -400,16 +391,6 @@ Distributed under the **GNU General Public License v3.0**. See `LICENSE` for mor
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
 <!-- MARKDOWN LINKS & IMAGES -->
-[contributors-shield]: https://img.shields.io/github/contributors/magic-sales/magic-sale-ai.svg?style=for-the-badge
-[contributors-url]: https://github.com/magic-sales/magic-sale-ai/graphs/contributors
-[forks-shield]: https://img.shields.io/github/forks/magic-sales/magic-sale-ai.svg?style=for-the-badge
-[forks-url]: https://github.com/magic-sales/magic-sale-ai/network/members
-[stars-shield]: https://img.shields.io/github/stars/magic-sales/magic-sale-ai.svg?style=for-the-badge
-[stars-url]: https://github.com/magic-sales/magic-sale-ai/stargazers
-[issues-shield]: https://img.shields.io/github/issues/magic-sales/magic-sale-ai.svg?style=for-the-badge
-[issues-url]: https://github.com/magic-sales/magic-sale-ai/issues
-[license-shield]: https://img.shields.io/github/license/magic-sales/magic-sale-ai.svg?style=for-the-badge
-[license-url]: https://github.com/magic-sales/magic-sale-ai/blob/main/LICENSE
 
 <!-- TECH STACK BADGES -->
 [Python-shield]: https://img.shields.io/badge/Python-3.11-3776AB?style=for-the-badge&logo=python&logoColor=white

@@ -1,6 +1,6 @@
 # chat-service
 
-**Conversation history storage and caching service for Magic Sale AI.**
+**Conversation history storage and caching service for Dairy AI.**
 
 Fast top-K message retrieval using Redis (ZSET) + PostgreSQL persistence.
 
@@ -298,4 +298,4 @@ async def save_message(window_id: str, role: str, content: str):
 
 ## License
 
-Part of Magic Sale AI — see [LICENSE](../LICENSE)
+Part of Dairy AI — see [LICENSE](../LICENSE)

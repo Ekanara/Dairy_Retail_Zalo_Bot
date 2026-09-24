@@ -103,14 +103,14 @@ async def create_order(
 ```
 Chào [customer_name],
 
-Cảm ơn bạn đã đặt hàng tại Magic Sale! 🎉
+Cảm ơn bạn đã đặt hàng tại Dairy AI! 🎉
 
 📦 Sản phẩm: [product_name]
 💰 Giá: [price] VND
 🎁 Quà kèm: [gift] (nếu có)
 
 Chúng tôi sẽ liên hệ xác nhận trong vòng 24h.
-Trân trọng, Magic Sale Team
+Trân trọng, Dairy AI Team
 ```
 
 ---
@@ -160,7 +160,7 @@ SMTP_HOST=smtp.gmail.com
 SMTP_PORT=587
 SMTP_USER=your_email@gmail.com
 SMTP_PASSWORD=your_app_password
-EMAIL_FROM=Magic Sale <your_email@gmail.com>
+EMAIL_FROM=Dairy AI <your_email@gmail.com>
 
 # prompt-service endpoint (để update personal files)
 PROMPT_SERVICE_URL=http://localhost:8001

@@ -1,24 +1,19 @@
 <a id="readme-top"></a>
 
 <div align="center">
-  <img src="images/logo.png.jpeg" alt="Sale Magic AI" width="400" />
+  <h1>Dairy AI</h1>
 
   <br />
   <br />
 
   **TRỢ LÝ BÁN HÀNG AI — BÁN HÀNG NHƯ NGƯỜI THẬT — TRÊN ZALO**
 
-  [![Contributors][contributors-shield]][contributors-url]
-  [![Forks][forks-shield]][forks-url]
-  [![Stargazers][stars-shield]][stars-url]
-  [![Issues][issues-shield]][issues-url]
-  [![GPL v3 License][license-shield]][license-url]
 
   Chatbot AI đa dịch vụ sống trong **Zalo** — ứng dụng nhắn tin số 1 Việt Nam.<br />
   Nhớ bạn là ai, khám phá bạn cần gì, và dẫn dắt bạn hoàn thành đơn hàng<br />
   bằng phương pháp **SPIN Selling** — từ "xin chào" đến xác nhận đơn — qua hội thoại tự nhiên.
 
-  [Xem tài liệu](https://github.com/magic-sales/magic-sale-ai) · [Báo lỗi](https://github.com/magic-sales/magic-sale-ai/issues/new?labels=bug&template=bug-report---.md) · [Đề xuất tính năng](https://github.com/magic-sales/magic-sale-ai/issues/new?labels=enhancement&template=feature-request---.md)
+  [Xem tài liệu](https://github.com/Ekanara/Dairy_Retail_Zalo_Bot) · [Báo lỗi](https://github.com/Ekanara/Dairy_Retail_Zalo_Bot/issues/new?labels=bug&template=bug-report---.md) · [Đề xuất tính năng](https://github.com/Ekanara/Dairy_Retail_Zalo_Bot/issues/new?labels=enhancement&template=feature-request---.md)
 
 </div>
 
@@ -30,7 +25,7 @@
 
 Hầu hết chatbot thương mại điện tử đều dump danh sách sản phẩm ngay khi bạn nói "xin chào". Đó là công cụ tìm kiếm gắn bong bóng chat — không phải bán hàng.
 
-**Magic Sale AI** triển khai **SPIN Selling** dưới dạng AI agent. Bot trước tiên *hiểu bạn là ai*, rồi *khám phá bạn thực sự cần gì*, rồi *gợi ý đúng sản phẩm*, và chỉ khi đó mới *chốt đơn*. Nếu bạn nói "không", bot xử lý phản đối như nhân viên được đào tạo bài bản (tối đa 3 lần, sau đó kết thúc lịch sự).
+**Dairy AI** triển khai **SPIN Selling** dưới dạng AI agent. Bot trước tiên *hiểu bạn là ai*, rồi *khám phá bạn thực sự cần gì*, rồi *gợi ý đúng sản phẩm*, và chỉ khi đó mới *chốt đơn*. Nếu bạn nói "không", bot xử lý phản đối như nhân viên được đào tạo bài bản (tối đa 3 lần, sau đó kết thúc lịch sự).
 
 Mỗi cuộc trò chuyện cảm giác như đang nói chuyện với người bạn am hiểu — không phải robot.
 
@@ -51,7 +46,7 @@ Mỗi cuộc trò chuyện cảm giác như đang nói chuyện với người b
 ## Kiến trúc
 
 <div align="center">
-  <img src="images/pipline.png" alt="Magic Sale AI Architecture" width="700" />
+  <img src="images/pipline.png" alt="Dairy AI Architecture" width="700" />
 </div>
 
 <br />
@@ -68,7 +63,7 @@ Orchestrator (`models-service`) thực hiện bốn việc mỗi khi có tin nh�
 ## Cách hoạt động
 
 ```
-Khách hàng               Magic Sale AI
+Khách hàng               Dairy AI
    │
    │  "Chào shop!"
    ├──────────────────▶  Zalo webhook nhận tin nhắn
@@ -102,7 +97,7 @@ Khách hàng               Magic Sale AI
 
 ### Kiến trúc Prompt — Tại sao mỗi cuộc trò chuyện lại khác nhau
 
-Hầu hết chatbot dùng một system prompt cho tất cả mọi người. Magic Sale AI xây **prompt riêng cho từng khách** bằng cách kết hợp sáu module tại thời điểm xử lý:
+Hầu hết chatbot dùng một system prompt cho tất cả mọi người. Dairy AI xây **prompt riêng cho từng khách** bằng cách kết hợp sáu module tại thời điểm xử lý:
 
 ```
 ┌─────────────────────────────────────────────────────┐
@@ -272,8 +267,8 @@ Khi khách nói "Ba em bị tiểu đường", AI gọi `edit_personal_profile` 
 ### Docker (full stack)
 
 ```bash
-git clone https://github.com/magic-sales/magic-sale-ai.git
-cd magic-sale-ai/infrastructure
+git clone https://github.com/Ekanara/Dairy_Retail_Zalo_Bot.git
+cd Dairy_Retail_Zalo_Bot/infrastructure
 
 make setup       # copy .env, build images, chạy migrations, import data
 make up          # khởi động tất cả services
@@ -283,8 +278,8 @@ make health      # kiểm tra tất cả đang chạy
 ### Phát triển local
 
 ```bash
-git clone https://github.com/magic-sales/magic-sale-ai.git
-cd magic-sale-ai
+git clone https://github.com/Ekanara/Dairy_Retail_Zalo_Bot.git
+cd Dairy_Retail_Zalo_Bot
 
 cd infrastructure && make dev-infra   # chỉ khởi động PostgreSQL + Redis
 cd ..
@@ -359,7 +354,7 @@ Mỗi service đọc từ file `.env` riêng. Xem `.env.example` của từng se
 - [ ] Hỗ trợ đa kênh (Facebook Messenger, Telegram)
 - [ ] Xử lý tin nhắn thoại
 
-Xem [open issues](https://github.com/magic-sales/magic-sale-ai/issues) để biết danh sách đầy đủ.
+Xem [open issues](https://github.com/Ekanara/Dairy_Retail_Zalo_Bot/issues) để biết danh sách đầy đủ.
 
 ---
 
@@ -375,10 +370,6 @@ Mọi đóng góp đều **được trân trọng**. Fork repo và tạo pull re
 
 Chúng tôi theo [Conventional Commits](https://www.conventionalcommits.org/) — dùng prefix `feat:`, `fix:`, `chore:`, `docs:`.
 
-<a href="https://github.com/magic-sales/magic-sale-ai/graphs/contributors">
-  <img src="https://contrib.rocks/image?repo=magic-sales/magic-sale-ai" alt="Contributors" />
-</a>
-
 ---
 
 ## Giấy phép
@@ -387,7 +378,7 @@ Phân phối theo **GNU General Public License v3.0**. Xem file `LICENSE` để 
 
 ## Liên hệ
 
-**Team Magic Sales** — [Project Link](https://github.com/magic-sales/magic-sale-ai)
+**Dairy AI** — [Project Link](https://github.com/Ekanara/Dairy_Retail_Zalo_Bot)
 
 ## Lời cảm ơn
 
@@ -401,16 +392,6 @@ Phân phối theo **GNU General Public License v3.0**. Xem file `LICENSE` để 
 <p align="right">(<a href="#readme-top">lên đầu trang</a>)</p>
 
 <!-- MARKDOWN LINKS & IMAGES -->
-[contributors-shield]: https://img.shields.io/github/contributors/magic-sales/magic-sale-ai.svg?style=for-the-badge
-[contributors-url]: https://github.com/magic-sales/magic-sale-ai/graphs/contributors
-[forks-shield]: https://img.shields.io/github/forks/magic-sales/magic-sale-ai.svg?style=for-the-badge
-[forks-url]: https://github.com/magic-sales/magic-sale-ai/network/members
-[stars-shield]: https://img.shields.io/github/stars/magic-sales/magic-sale-ai.svg?style=for-the-badge
-[stars-url]: https://github.com/magic-sales/magic-sale-ai/stargazers
-[issues-shield]: https://img.shields.io/github/issues/magic-sales/magic-sale-ai.svg?style=for-the-badge
-[issues-url]: https://github.com/magic-sales/magic-sale-ai/issues
-[license-shield]: https://img.shields.io/github/license/magic-sales/magic-sale-ai.svg?style=for-the-badge
-[license-url]: https://github.com/magic-sales/magic-sale-ai/blob/main/LICENSE
 
 <!-- TECH STACK BADGES -->
 [Python-shield]: https://img.shields.io/badge/Python-3.11-3776AB?style=for-the-badge&logo=python&logoColor=white
