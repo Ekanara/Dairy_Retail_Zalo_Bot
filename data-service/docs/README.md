@@ -2,7 +2,7 @@
 
 ## Tổng Quan
 
-`data-service` quản lý toàn bộ catalog sản phẩm sữa (Abbott / Similac / Grow / Ensure) — được import từ CSV nghiên cứu và lưu vào **PostgreSQL**. Mỗi sản phẩm có `product_id` riêng và join sang bảng `orders` để kiểm tra tình trạng tồn kho real-time.
+`data-service` quản lý toàn bộ catalog sản phẩm sữa — được import từ CSV nghiên cứu và lưu vào **PostgreSQL**. Mỗi sản phẩm có `product_id` riêng và join sang bảng `orders` để kiểm tra tình trạng tồn kho real-time.
 
 ---
 
@@ -42,7 +42,7 @@ data-service/
 |---|---|---|
 | `product_id` | UUID (PK) | ID duy nhất mỗi sản phẩm |
 | `name` | TEXT | Tên sản phẩm đầy đủ |
-| `brand` | VARCHAR(100) | Thương hiệu (Ensure, Similac, Grow...) |
+| `brand` | VARCHAR(100) | Thương hiệu sản phẩm |
 | `origin` | VARCHAR(100) | Xuất xứ (Singapore, Ai-len...) |
 | `customer_segment` | TEXT | Đối tượng dùng (trẻ 0-6th, người lớn...) |
 | `product_purpose` | TEXT | Mô tả công dụng đầy đủ |

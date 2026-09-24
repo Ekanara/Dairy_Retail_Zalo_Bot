@@ -1,6 +1,6 @@
 <a id="readme-top"></a>
 
-**TRỢ LÝ BÁN HÀNG AI — BÁN HÀNG NHƯ NGƯỜI THẬT — TRÊN ZALO**
+## Tổng quan
 
 Chatbot AI đa dịch vụ sống trong **Zalo** — ứng dụng nhắn tin số 1 Việt Nam.<br />
 Nhớ bạn là ai, khám phá bạn cần gì, và dẫn dắt bạn hoàn thành đơn hàng<br />
@@ -75,7 +75,7 @@ Khách hàng               Dairy AI
    │                                   (đúng tone, đúng
    │                                    kiến thức, đúng tool)
    │  "Dạ em recommend
-   │   Ensure Gold cho                       │
+   │   sữa phù hợp cho                       │
    │   ba anh/chị ạ! 😊"                    │
    │◀────────────────────────────────────────┘
 ```
@@ -97,7 +97,7 @@ Hầu hết chatbot dùng một system prompt cho tất cả mọi người. Dai
 │   │ "Em là   │  │ Ấm áp,   │  │ Nguyễn Văn A,  │   │
 │   │  tư vấn  │  │ đồng cảm,│  │ 65 tuổi, tiểu  │   │
 │   │  viên    │  │ không    │  │ đường, thích   │   │
-│   │  Abbott" │  │ ép mua   │  │ Ensure Gold    │   │
+│   │  sữa"    │  │ ép mua   │  │ sữa dinh dưỡng │   │
 │   └──────────┘  └──────────┘  └────────────────┘   │
 │                                                      │
 │   ┌──────────┐  ┌──────────┐  ┌────────────────┐   │

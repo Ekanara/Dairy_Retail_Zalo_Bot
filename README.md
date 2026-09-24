@@ -1,6 +1,6 @@
 <a id="readme-top"></a>
 
-**AN AI SALES ASSISTANT THAT SELLS LIKE A HUMAN — ON ZALO**
+## Overview
 
 A multi-service AI chatbot that lives inside **Zalo** — Vietnam's #1 messaging app.<br />
 It remembers who you are, discovers what you need, and walks you through a complete purchase<br />
@@ -73,7 +73,7 @@ Customer                    Dairy AI
    │                                   (with the right tone,
    │                                    the right knowledge,
    │  "Dạ em recommend                  the right tools)
-   │   Ensure Gold cho                       │
+   │   sữa phù hợp cho                       │
    │   ba anh/chị ạ! 😊"                    │
    │◀────────────────────────────────────────┘
 ```
@@ -93,9 +93,9 @@ Most chatbots use one system prompt for everyone. Dairy AI builds a **unique pro
 │   ┌──────────┐  ┌──────────┐  ┌────────────────┐   │
 │   │ IDENTITY │  │   SOUL   │  │      USER      │   │
 │   │ "I am    │  │ Warm,    │  │ Nguyễn Văn A,  │   │
-│   │  NutriBot│  │ empathic,│  │ 65 tuổi, tiểu  │   │
-│   │  from    │  │ never    │  │ đường, thích   │   │
-│   │  Abbott" │  │ pushy    │  │ Ensure Gold    │   │
+│   │  DairyBot│  │ empathic,│  │ 65 tuổi, tiểu  │   │
+│   │  — dairy │  │ never    │  │ đường, thích   │   │
+│   │  guide"  │  │ pushy    │  │ sữa dinh dưỡng │   │
 │   └──────────┘  └──────────┘  └────────────────┘   │
 │                                                      │
 │   ┌──────────┐  ┌──────────┐  ┌────────────────┐   │
