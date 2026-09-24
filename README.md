@@ -1,21 +1,12 @@
 <a id="readme-top"></a>
 
-<div align="center">
-  <h1>Dairy AI</h1>
+**AN AI SALES ASSISTANT THAT SELLS LIKE A HUMAN — ON ZALO**
 
-  <br />
-  <br />
+A multi-service AI chatbot that lives inside **Zalo** — Vietnam's #1 messaging app.<br />
+It remembers who you are, discovers what you need, and walks you through a complete purchase<br />
+using **SPIN Selling** methodology — from "hello" to order confirmation — through natural conversation.
 
-  **AN AI SALES ASSISTANT THAT SELLS LIKE A HUMAN — ON ZALO**
-
-
-  A multi-service AI chatbot that lives inside **Zalo** — Vietnam's #1 messaging app.<br />
-  It remembers who you are, discovers what you need, and walks you through a complete purchase<br />
-  using **SPIN Selling** methodology — from "hello" to order confirmation — through natural conversation.
-
-  [Explore the Docs](https://github.com/Ekanara/Dairy_Retail_Zalo_Bot) · [Report Bug](https://github.com/Ekanara/Dairy_Retail_Zalo_Bot/issues/new?labels=bug&template=bug-report---.md) · [Request Feature](https://github.com/Ekanara/Dairy_Retail_Zalo_Bot/issues/new?labels=enhancement&template=feature-request---.md)
-
-</div>
+[Explore the Docs](https://github.com/Ekanara/Dairy_Retail_Zalo_Bot) · [Report Bug](https://github.com/Ekanara/Dairy_Retail_Zalo_Bot/issues/new?labels=bug&template=bug-report---.md) · [Request Feature](https://github.com/Ekanara/Dairy_Retail_Zalo_Bot/issues/new?labels=enhancement&template=feature-request---.md)
 
 ---
 
@@ -43,9 +34,7 @@ Every conversation feels like talking to a knowledgeable friend, not a robot.
 
 ## Architecture
 
-<div align="center">
-  <img src="images/pipline.png" alt="Dairy AI Architecture" width="700" />
-</div>
+<img src="images/pipline.png" alt="Dairy AI Architecture" width="700" />
 
 <br />
 

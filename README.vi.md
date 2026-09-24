@@ -1,21 +1,12 @@
 <a id="readme-top"></a>
 
-<div align="center">
-  <h1>Dairy AI</h1>
+**TRỢ LÝ BÁN HÀNG AI — BÁN HÀNG NHƯ NGƯỜI THẬT — TRÊN ZALO**
 
-  <br />
-  <br />
+Chatbot AI đa dịch vụ sống trong **Zalo** — ứng dụng nhắn tin số 1 Việt Nam.<br />
+Nhớ bạn là ai, khám phá bạn cần gì, và dẫn dắt bạn hoàn thành đơn hàng<br />
+bằng phương pháp **SPIN Selling** — từ "xin chào" đến xác nhận đơn — qua hội thoại tự nhiên.
 
-  **TRỢ LÝ BÁN HÀNG AI — BÁN HÀNG NHƯ NGƯỜI THẬT — TRÊN ZALO**
-
-
-  Chatbot AI đa dịch vụ sống trong **Zalo** — ứng dụng nhắn tin số 1 Việt Nam.<br />
-  Nhớ bạn là ai, khám phá bạn cần gì, và dẫn dắt bạn hoàn thành đơn hàng<br />
-  bằng phương pháp **SPIN Selling** — từ "xin chào" đến xác nhận đơn — qua hội thoại tự nhiên.
-
-  [Xem tài liệu](https://github.com/Ekanara/Dairy_Retail_Zalo_Bot) · [Báo lỗi](https://github.com/Ekanara/Dairy_Retail_Zalo_Bot/issues/new?labels=bug&template=bug-report---.md) · [Đề xuất tính năng](https://github.com/Ekanara/Dairy_Retail_Zalo_Bot/issues/new?labels=enhancement&template=feature-request---.md)
-
-</div>
+[Xem tài liệu](https://github.com/Ekanara/Dairy_Retail_Zalo_Bot) · [Báo lỗi](https://github.com/Ekanara/Dairy_Retail_Zalo_Bot/issues/new?labels=bug&template=bug-report---.md) · [Đề xuất tính năng](https://github.com/Ekanara/Dairy_Retail_Zalo_Bot/issues/new?labels=enhancement&template=feature-request---.md)
 
 > 🌐 **English README:** [README.md](README.md)
 
@@ -45,9 +36,7 @@ Mỗi cuộc trò chuyện cảm giác như đang nói chuyện với người b
 
 ## Kiến trúc
 
-<div align="center">
-  <img src="images/pipline.png" alt="Dairy AI Architecture" width="700" />
-</div>
+<img src="images/pipline.png" alt="Dairy AI Architecture" width="700" />
 
 <br />
 
