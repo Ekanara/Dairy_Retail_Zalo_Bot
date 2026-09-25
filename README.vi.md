@@ -1,5 +1,12 @@
 <a id="readme-top"></a>
 
+**TRỢ LÝ BÁN HÀNG AI — BÁN HÀNG NHƯ NGƯỜI THẬT — TRÊN ZALO**
+
+[![Python][Python-shield]][Python-url] [![FastAPI][FastAPI-shield]][FastAPI-url] [![AgentScope][Pydantic-shield]][Pydantic-url] [![OpenAI][OpenAI-shield]][OpenAI-url]
+[![PostgreSQL][PostgreSQL-shield]][PostgreSQL-url] [![Redis][Redis-shield]][Redis-url] [![Docker][Docker-shield]][Docker-url] [![Nginx][Nginx-shield]][Nginx-url] [![Jinja2][Jinja2-shield]][Jinja2-url]
+
+> 🌐 **English README:** [README.md](README.md)
+
 ## Tổng quan
 
 Chatbot AI đa dịch vụ sống trong **Zalo** — ứng dụng nhắn tin số 1 Việt Nam.<br />
@@ -7,8 +14,6 @@ Nhớ bạn là ai, khám phá bạn cần gì, và dẫn dắt bạn hoàn thà
 bằng phương pháp **SPIN Selling** — từ "xin chào" đến xác nhận đơn — qua hội thoại tự nhiên.
 
 [Xem tài liệu](https://github.com/Ekanara/Dairy_Retail_Zalo_Bot) · [Báo lỗi](https://github.com/Ekanara/Dairy_Retail_Zalo_Bot/issues/new?labels=bug&template=bug-report---.md) · [Đề xuất tính năng](https://github.com/Ekanara/Dairy_Retail_Zalo_Bot/issues/new?labels=enhancement&template=feature-request---.md)
-
-> 🌐 **English README:** [README.md](README.md)
 
 ---
 
@@ -231,16 +236,6 @@ Khi khách nói "Ba em bị tiểu đường", AI gọi `edit_personal_profile` 
 | **Infra** | Docker Compose, Nginx, Alembic |
 | **Kênh** | Zalo OA Bot API |
 
-[![Python][Python-shield]][Python-url]
-[![FastAPI][FastAPI-shield]][FastAPI-url]
-[![PostgreSQL][PostgreSQL-shield]][PostgreSQL-url]
-[![Redis][Redis-shield]][Redis-url]
-[![Docker][Docker-shield]][Docker-url]
-[![Pydantic][Pydantic-shield]][Pydantic-url]
-[![OpenAI][OpenAI-shield]][OpenAI-url]
-[![Jinja2][Jinja2-shield]][Jinja2-url]
-[![Nginx][Nginx-shield]][Nginx-url]
-
 ---
 
 ## Bắt đầu
@@ -361,13 +356,11 @@ Chúng tôi theo [Conventional Commits](https://www.conventionalcommits.org/) �
 
 ---
 
-## Giấy phép
-
-Phân phối theo **GNU General Public License v3.0**. Xem file `LICENSE` để biết thêm.
-
 ## Liên hệ
 
-**Dairy AI** — [Project Link](https://github.com/Ekanara/Dairy_Retail_Zalo_Bot)
+**Vũ Anh Khôi** · [@Ekanara](https://github.com/Ekanara)
+
+Dự án: [Dairy_Retail_Zalo_Bot](https://github.com/Ekanara/Dairy_Retail_Zalo_Bot)
 
 ## Lời cảm ơn
 

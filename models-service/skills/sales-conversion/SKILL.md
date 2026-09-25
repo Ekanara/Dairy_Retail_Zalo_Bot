@@ -1,6 +1,6 @@
 ---
 name: sales-conversion
-description: "Điều phối quy trình tư vấn bán sữa Abbott theo tình huống hội thoại; bắt buộc đọc resource phù hợp trước khi trả lời."
+description: "Điều phối quy trình tư vấn bán sữa công thức theo tình huống hội thoại; bắt buộc đọc resource phù hợp trước khi trả lời."
 ---
 
 # Sales Conversation Flow — Nhà Sữa

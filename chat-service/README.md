@@ -294,8 +294,3 @@ async def save_message(window_id: str, role: str, content: str):
 - Keep `limit` ≤ 200 for optimal performance
 - For longer history, implement pagination/cursor
 
----
-
-## License
-
-Part of Dairy AI — see [LICENSE](../LICENSE)

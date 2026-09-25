@@ -51,7 +51,7 @@ If stopped using (check intent): Dạ sao mình ngưng dùng sữa vậy ạ? M�
 - If uncertain or still interested: Treat as Loyal customer. Handle reason for stopping using the 3-step model, then close.
 
 Sample RTN opening script:
-Dạ có phải cô/chú/anh/chị [tên] đang nghe máy không ạ? Em là [tên] gọi từ Bộ phận chăm sóc Khách hàng và tư vấn dinh dưỡng của công ty Abbott Hoa Kỳ. Em có thấy anh/chị mua Ensure Gold cách đây khoảng [thời gian]. Hôm nay em gọi điện lại để hỏi thăm sức khỏe cũng như trải nghiệm của anh chị với sản phẩm Ensure. Vậy nên em xin anh/chị vài phút trao đổi nhanh nhé.
+Dạ có phải cô/chú/anh/chị [tên] đang nghe máy không ạ? Em là [tên] gọi từ bộ phận chăm sóc khách hàng của cửa hàng Nhà Sữa. Em có thấy anh/chị mua Ensure Gold cách đây khoảng [thời gian]. Hôm nay em gọi điện lại để hỏi thăm sức khỏe cũng như trải nghiệm của anh chị với sản phẩm Ensure. Vậy nên em xin anh/chị vài phút trao đổi nhanh nhé.
 
 ### DGT (Digital) Opening
 
@@ -66,7 +66,7 @@ Confirm age: EndUser năm nay bao nhiêu tuổi rồi?
 Identify health concern: Dạ đợt này mình đăng ký chương trình bên em là đang muốn quan tâm cải thiện vấn đề gì cho người thân ạ?
 
 Sample DGT opening script:
-Dạ có phải cô/chú/anh/chị [tên] đang nghe máy không ạ? Em là [tên] gọi từ Bộ phận chăm sóc Khách hàng và tư vấn dinh dưỡng của công ty Abbott Hoa Kỳ. Em gọi để trao đổi về chương trình trải nghiệm miễn phí của nhãn hàng Ensure Gold mà anh chị đã đăng ký. Em xin vài phút xác nhận lại thông tin và tư vấn thêm về chương trình nha.
+Dạ có phải cô/chú/anh/chị [tên] đang nghe máy không ạ? Em là [tên] gọi từ bộ phận chăm sóc khách hàng của cửa hàng Nhà Sữa. Em gọi để trao đổi về chương trình trải nghiệm miễn phí của nhãn hàng Ensure Gold mà anh chị đã đăng ký. Em xin vài phút xác nhận lại thông tin và tư vấn thêm về chương trình nha.
 
 If customer says they did not register: Dạ vậy mình đăng ký cho ai vậy ạ? Hoặc: Dạ mình đang quan tâm sức khỏe của ai trong gia đình ạ? Then confirm personal information and remind them of the free trial program.
 
@@ -81,7 +81,7 @@ Confirm age: EndUser năm nay bao nhiêu tuổi rồi?
 Identify health condition: Không biết lần trước EndUser đi khám vì vấn đề gì ạ? Bác sĩ báo cho mình biết kết quả như thế nào vậy ạ?
 
 Sample ETC opening script:
-Dạ có phải cô/chú/anh/chị [tên] đang nghe máy không ạ? Em chào anh/chị, em là [tên] gọi đến từ phòng thông tin các sản phẩm Abbott Hoa Kỳ. Em thấy mình có đi thăm khám tại bệnh viện và được các bạn PG tư vấn về sản phẩm Ensure Gold mới, nên em gọi đến hỏi thăm gia đình mình và ưu đãi cho mình. Em xin phép trao đổi với anh/chị ít phút nhé.
+Dạ có phải cô/chú/anh/chị [tên] đang nghe máy không ạ? Em chào anh/chị, em là [tên] gọi đến từ bộ phận tư vấn sản phẩm của cửa hàng Nhà Sữa. Em thấy mình có đi thăm khám tại bệnh viện và được các bạn PG tư vấn về sản phẩm Ensure Gold mới, nên em gọi đến hỏi thăm gia đình mình và ưu đãi cho mình. Em xin phép trao đổi với anh/chị ít phút nhé.
 
 ---
 
@@ -201,7 +201,7 @@ Em thấy bác ở nhà cũng đang gặp vấn đề về [vấn đề]. Nên �
 
 Then explain: Bác gặp tình trạng trên là do [nguyên nhân]. Nên dòng Ensure Gold bên em có [thành phần]. Nó sẽ giúp [lợi ích]. Đặc biệt còn được chứng minh lâm sàng: [CMLS phù hợp].
 
-Then close with an offer: Nên chương trình mình đăng ký đợt này có ưu đãi đặc biệt cho mình và người thân luôn ạ. Em thấy bác cũng đang gặp vấn đề [vấn đề] với cũng chưa dùng Ensure nên Abbott đang có chương trình ưu đãi Ensure Gold cho bác trải nghiệm là khi mình mua 1 lon [sản phẩm] sẽ được trợ giá gốc chỉ còn [giá]. Bên em còn hỗ trợ miễn phí giao hàng tận nhà cho mình. Em giao về địa chỉ mình đã đăng ký thì nhận hàng vào giờ hành chính được không ạ?
+Then close with an offer: Nên chương trình mình đăng ký đợt này có ưu đãi đặc biệt cho mình và người thân luôn ạ. Em thấy bác cũng đang gặp vấn đề [vấn đề] với cũng chưa dùng Ensure nên cửa hàng đang có chương trình ưu đãi cho bác trải nghiệm là khi mình mua 1 lon [sản phẩm] sẽ được trợ giá gốc chỉ còn [giá]. Bên em còn hỗ trợ miễn phí giao hàng tận nhà cho mình. Em giao về địa chỉ mình đã đăng ký thì nhận hàng vào giờ hành chính được không ạ?
 
 For RTN source, after care questions and advice:
 Để hỗ trợ thêm dinh dưỡng cho mình, nên đợt này em gọi ra có chương trình khuyến mãi riêng cho khách hàng thân thiết là mua [số lượng] lon được tặng [quà]. Em đăng ký cho mình giao về địa chỉ cũ luôn nhé.

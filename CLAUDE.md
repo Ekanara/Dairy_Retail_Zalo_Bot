@@ -54,7 +54,7 @@ Key files: `models-service/app/services/model_service.py` (orchestration), `mode
 
 Modular Jinja2 template system in `prompt-service/prompt_architechture/`:
 - `system_prompt.md` — master template, includes others via `{% include "AGENTS.md" %}`
-- `IDENTITY.md` — bot persona ("Nhà Sữa" nutrition consultant, never says "AI" or "chatbot")
+- `IDENTITY.md` — bot persona (nutrition assistant for "Nhà Sữa", an independent retailer; discloses that it is an AI when asked, and never claims to represent a manufacturer)
 - `AGENTS.md` — agent behavior rules
 - `TOOLS.md` — tool usage instructions
 - `SOUL.md`, `USER.md`, `MEMORY.md` — per-user profile templates (stored in DB, rendered per request)

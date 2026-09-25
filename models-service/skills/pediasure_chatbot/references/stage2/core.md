@@ -54,7 +54,7 @@ Soften: Acknowledge what the parent shared without dismissing it.
 
 Clarify: Ask whether they add milk before or after water if preparation method is not yet clear. Clumping is almost always caused by incorrect preparation or storage rather than a product defect.
 
-Satisfy: Explain that Abbott products are sieved through fine mesh before canning, ensuring smoothness at production. Clumping is a physical phenomenon that does not affect nutritional quality. Then give the correct mixing method: add water first, then add milk powder gradually while stirring, stir continuously for at least 1 minute, and use only boiled water that has cooled to room temperature. Never use mineral water, broth, or other liquids.
+Satisfy: Explain that powdered formula is sieved through fine mesh before canning, ensuring smoothness at production. Clumping is a physical phenomenon that does not affect nutritional quality. Then give the correct mixing method: add water first, then add milk powder gradually while stirring, stir continuously for at least 1 minute, and use only boiled water that has cooled to room temperature. Never use mineral water, broth, or other liquids.
 
 ---
 
@@ -64,7 +64,7 @@ Soften: Thank the parent sincerely for their loyalty to Pediasure.
 
 Clarify: Provide the factual background: in 2022 the Vietnamese government temporarily reduced VAT from 10% to 8% as economic support. From 1 January 2023, all goods returned to the standard 10% VAT rate. Pediasure's price adjustment reflects this government regulation, not a company decision to raise prices.
 
-Satisfy: State clearly that the adjustment follows national VAT regulations that apply to all goods equally. Abbott deeply appreciates the parent's loyalty and will continue to improve product quality and service.
+Satisfy: State clearly that the adjustment follows national VAT regulations that apply to all goods equally. Thank the parent for their loyalty and note that the shop will keep improving its service.
 
 ---
 

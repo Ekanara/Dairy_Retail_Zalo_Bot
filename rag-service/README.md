@@ -325,10 +325,6 @@ Follow the project's coding conventions:
 - snake_case naming
 - Conventional Commits (feat:, fix:, chore:)
 
-## License
-
-MIT
-
 ## Support
 
 For issues, feature requests, or questions, please open an issue on GitHub.

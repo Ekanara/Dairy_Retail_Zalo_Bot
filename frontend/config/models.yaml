@@ -8,7 +8,7 @@
 models:
   - id: milk-sell-bot-1
     name: "milk-sell-bot 1.0"
-    description: "NutriBot — AI tư vấn dinh dưỡng Abbott"
+    description: "Trợ lý tư vấn dinh dưỡng Nhà Sữa"
     api_url: "http://localhost:8000/chat/stream"
 
   # Add more models below:

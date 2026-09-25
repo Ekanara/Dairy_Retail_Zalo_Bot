@@ -458,7 +458,7 @@ def _is_meta_capability_query(user_prompt: str) -> bool:
 def _build_capability_reply() -> str:
     """Consistent response for capability questions."""
     return (
-        "Dạ em là NutriBot bên Abbott ạ. "
+        "Dạ em là trợ lý tư vấn của Nhà Sữa ạ. "
         "Em có thể tư vấn sữa theo độ tuổi và tình trạng sức khỏe, "
         "giải đáp thông tin sản phẩm và giá, so sánh lựa chọn phù hợp, "
         "và hỗ trợ lên đơn khi anh/chị cần."

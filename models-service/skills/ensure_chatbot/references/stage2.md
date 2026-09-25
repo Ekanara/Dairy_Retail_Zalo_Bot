@@ -46,7 +46,7 @@ Soften: Dạ, em cảm ơn anh/chị đã chia sẻ.
 
 Clarify: Ngoài vị ngọt ra thì mình có đang gặp vấn đề gì khi dùng sữa không ạ?
 
-Satisfy: Abbott đã nghiên cứu và cho ra mắt dòng Ensure Gold Ít Ngọt (nhãn màu xanh dương đậm) giảm lượng đường nhưng vẫn đảm bảo đủ 39 dưỡng chất, rất phù hợp với khẩu vị của mình.
+Satisfy: Hiện có dòng Ensure Gold Ít Ngọt (nhãn màu xanh dương đậm) giảm lượng đường nhưng vẫn đảm bảo đủ 39 dưỡng chất, rất phù hợp với khẩu vị của mình.
 
 ### Does Not Like Barley or Coffee Flavor (Vị lúa mạch/cà phê khó uống)
 
@@ -86,7 +86,7 @@ Soften: Dạ em biết mình rất cẩn thận với sức khỏe.
 
 Clarify: Anh/chị mua sữa ở đâu mà lo lắng vậy ạ?
 
-Satisfy: Khi mua qua kênh hotline hoặc chương trình này, sữa được giao từ kho tổng Abbott qua Viettelpost. Anh/chị được kiểm tra tem, mã QR đáy lon để truy xuất nguồn gốc trước khi thanh toán.
+Satisfy: Khi mua qua kênh hotline hoặc chương trình này, sữa được giao từ kho của cửa hàng qua Viettelpost. Anh/chị được kiểm tra tem, mã QR đáy lon để truy xuất nguồn gốc trước khi thanh toán.
 
 ### Fear of Weight Gain (Sợ dư cân)
 
@@ -98,7 +98,7 @@ Satisfy: Cách dùng đúng là uống trước hoặc sau bữa ăn 2 tiếng. 
 
 ### Concerns About Preservatives (Sữa có chất bảo quản không?)
 
-Satisfy directly: Tất cả sữa của Abbott cam kết không chứa chất bảo quản. Abbott kiểm soát hạn sử dụng bằng cách giảm oxy và kim loại nặng tối đa, sử dụng công nghệ sục khí trơ Nitơ vào lon để đuổi hết oxy ra ngoài trước khi đóng nắp, giúp dưỡng chất không bị oxy hóa mà không cần hóa chất bảo quản.
+Satisfy directly: Sữa công thức dạng bột thường không cần chất bảo quản vì độ ẩm trong bột rất thấp. Nhà sản xuất kiểm soát hạn sử dụng bằng quy trình đóng lon kín và hút bớt oxy trước khi đóng nắp. Anh/chị xem bảng thành phần in trên bao bì để biết chính xác với từng sản phẩm ạ.
 
 ### Milk Clumps or Lumpy When Mixed (Sữa bị bết, vón cục, lợn cợn)
 

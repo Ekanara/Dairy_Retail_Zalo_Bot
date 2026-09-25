@@ -1,6 +1,6 @@
 ---
 name: pediasure-chatbot
-description: Use when handling Pediasure product sales conversations with Vietnamese parents. Triggers on any sales context involving Pediasure milk, child nutrition concerns, child height or weight issues, objection handling for Pediasure, or order closing for Abbott products. Use this skill whenever selling Pediasure or consulting Vietnamese parents about children's nutritional supplements.
+description: Use when handling Pediasure product sales conversations with Vietnamese parents. Triggers on any sales context involving Pediasure milk, child nutrition concerns, child height or weight issues, objection handling, or order closing for children's nutrition products. Use this skill whenever selling Pediasure or consulting Vietnamese parents about children's nutritional supplements.
 ---
 
 # Pediasure Sales Chatbot

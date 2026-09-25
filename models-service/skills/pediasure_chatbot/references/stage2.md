@@ -92,7 +92,7 @@ Soften: Acknowledge what the parent shared without dismissing it.
 
 Clarify: Ask whether they add milk before or after water if preparation method is not yet clear. Clumping is almost always caused by incorrect preparation or storage rather than a product defect.
 
-Satisfy: Explain that Abbott products are sieved through fine mesh before canning, ensuring smoothness at production. Clumping is a physical phenomenon that does not affect nutritional quality. Then give the correct mixing method: add water first, then add milk powder gradually while stirring, stir continuously for at least 1 minute, and use only boiled water that has cooled to room temperature. Never use mineral water, broth, or other liquids.
+Satisfy: Explain that powdered formula is sieved through fine mesh before canning, ensuring smoothness at production. Clumping is a physical phenomenon that does not affect nutritional quality. Then give the correct mixing method: add water first, then add milk powder gradually while stirring, stir continuously for at least 1 minute, and use only boiled water that has cooled to room temperature. Never use mineral water, broth, or other liquids.
 
 ---
 
@@ -102,7 +102,7 @@ Soften: Thank the parent sincerely for their loyalty to Pediasure.
 
 Clarify: Provide the factual background: in 2022 the Vietnamese government temporarily reduced VAT from 10% to 8% as economic support. From 1 January 2023, all goods returned to the standard 10% VAT rate. Pediasure's price adjustment reflects this government regulation, not a company decision to raise prices.
 
-Satisfy: State clearly that the adjustment follows national VAT regulations that apply to all goods equally. Abbott deeply appreciates the parent's loyalty and will continue to improve product quality and service.
+Satisfy: State clearly that the adjustment follows national VAT regulations that apply to all goods equally. Thank the parent for their loyalty and note that the shop will keep improving its service.
 
 ---
 
@@ -198,7 +198,7 @@ Sales: Dạ đó là nguyên nhân rồi anh/chị ơi. Mình cần đổ nướ
 
 Customer: Ừ vậy giờ mới biết.
 
-Sales: Dạ, và anh/chị yên tâm nha, sữa Abbott được rây qua rây mịn trước khi đóng lon nên chất lượng đảm bảo, vón cục chỉ là hiện tượng vật lý không ảnh hưởng dinh dưỡng chút nào.
+Sales: Dạ, và anh/chị yên tâm nha, sữa bột được rây qua rây mịn trước khi đóng lon nên chất lượng đảm bảo, vón cục chỉ là hiện tượng vật lý không ảnh hưởng dinh dưỡng chút nào.
 
 ---
 
@@ -214,7 +214,7 @@ Sales: Dạ em giải thích để anh chị hiểu nhé. Năm 2022 Nhà nước
 
 Customer: À vậy không phải Abbott tăng giá riêng?
 
-Sales: Dạ đúng vậy ạ, giá điều chỉnh theo quy định thuế chung của Nhà nước, không phải Abbott tự quyết định. Abbott rất cảm ơn anh chị đã đồng hành và sẽ không ngừng cải thiện chất lượng sản phẩm để xứng đáng với sự tin tưởng đó ạ.
+Sales: Dạ đúng vậy ạ, giá điều chỉnh theo quy định thuế chung của Nhà nước, không phải do cửa hàng tự quyết định. Cửa hàng rất cảm ơn anh chị đã đồng hành và sẽ không ngừng cải thiện chất lượng dịch vụ để xứng đáng với sự tin tưởng đó ạ.
 
 ---
 

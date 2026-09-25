@@ -1,6 +1,6 @@
 ---
 name: ensure-chatbot
-description: Use when handling Ensure Gold product sales conversations with Vietnamese adult customers. Triggers on any sales context involving Ensure Gold milk, adult nutrition concerns, health issues (cardiovascular, joints, immunity, digestion, nutrition), objection handling for Ensure Gold, or order closing for Abbott products. Use this skill whenever selling Ensure Gold or consulting Vietnamese adults about nutritional supplements.
+description: Use when handling Ensure Gold product sales conversations with Vietnamese adult customers. Triggers on any sales context involving Ensure Gold milk, adult nutrition concerns, health issues (cardiovascular, joints, immunity, digestion, nutrition), objection handling, or order closing for adult nutrition products. Use this skill whenever selling Ensure Gold or consulting Vietnamese adults about nutritional supplements.
 ---
 
 # Ensure Gold Sales Chatbot

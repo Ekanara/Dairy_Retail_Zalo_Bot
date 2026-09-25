@@ -78,7 +78,7 @@ Sales: Dạ đó là nguyên nhân rồi anh/chị ơi. Mình cần đổ nướ
 
 Customer: Ừ vậy giờ mới biết.
 
-Sales: Dạ, và anh/chị yên tâm nha, sữa Abbott được rây qua rây mịn trước khi đóng lon nên chất lượng đảm bảo, vón cục chỉ là hiện tượng vật lý không ảnh hưởng dinh dưỡng chút nào.
+Sales: Dạ, và anh/chị yên tâm nha, sữa bột được rây qua rây mịn trước khi đóng lon nên chất lượng đảm bảo, vón cục chỉ là hiện tượng vật lý không ảnh hưởng dinh dưỡng chút nào.
 
 ---
 
@@ -94,7 +94,7 @@ Sales: Dạ em giải thích để anh chị hiểu nhé. Năm 2022 Nhà nước
 
 Customer: À vậy không phải Abbott tăng giá riêng?
 
-Sales: Dạ đúng vậy ạ, giá điều chỉnh theo quy định thuế chung của Nhà nước, không phải Abbott tự quyết định. Abbott rất cảm ơn anh chị đã đồng hành và sẽ không ngừng cải thiện chất lượng sản phẩm để xứng đáng với sự tin tưởng đó ạ.
+Sales: Dạ đúng vậy ạ, giá điều chỉnh theo quy định thuế chung của Nhà nước, không phải do cửa hàng tự quyết định. Cửa hàng rất cảm ơn anh chị đã đồng hành và sẽ không ngừng cải thiện chất lượng dịch vụ để xứng đáng với sự tin tưởng đó ạ.
 
 ---
 

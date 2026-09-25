@@ -42,7 +42,7 @@ Sales: Số này anh chị có dùng Zalo không ạ? Sau cuộc gọi sẽ có 
 
 Customer: Dạ có Zalo.
 
-Sales: Em tên Linh sẽ chịu trách nhiệm với đơn hàng của anh chị. Trong 48 tiếng kể từ lúc nhận hàng nếu có vấn đề gì anh chị gọi lại gặp em hoặc gọi hotline Abbott 1900 1519. Em cảm ơn anh chị đã tin tưởng sử dụng sản phẩm của Abbott. Chúc gia đình nhiều sức khỏe và bé hay ăn chóng lớn ạ.
+Sales: Em tên Linh sẽ chịu trách nhiệm với đơn hàng của anh chị. Trong 48 tiếng kể từ lúc nhận hàng nếu có vấn đề gì anh chị gọi lại gặp em hoặc liên hệ hotline của cửa hàng. Em cảm ơn anh chị đã tin tưởng mua hàng tại cửa hàng. Chúc gia đình nhiều sức khỏe và bé hay ăn chóng lớn ạ.
 
 ---
 
@@ -84,13 +84,13 @@ Sales: Số này anh/chị có Zalo không ạ? Sau cuộc gọi sẽ có tin nh
 
 Customer: Có Zalo chị.
 
-Sales: Em tên Mai chịu trách nhiệm đơn hàng của anh/chị. Trong 48 tiếng kể từ lúc nhận nếu có vấn đề gì anh/chị gọi lại gặp em hoặc gọi 1900 1519 nhé. Em cảm ơn anh/chị đã tin tưởng Abbott. Chúc gia đình sức khỏe và bé hay ăn chóng lớn ạ.
+Sales: Em tên Mai chịu trách nhiệm đơn hàng của anh/chị. Trong 48 tiếng kể từ lúc nhận nếu có vấn đề gì anh/chị gọi lại gặp em hoặc liên hệ hotline của cửa hàng nhé. Em cảm ơn anh/chị đã tin tưởng cửa hàng. Chúc gia đình sức khỏe và bé hay ăn chóng lớn ạ.
 
 ---
 
 Tình huống C: Chốt đơn định hướng phát triển não bộ
 
-Sales: Dạ trộm vía anh/chị chăm bé tốt. Giai đoạn này con cần phát triển thêm về não bộ và thị giác. Abbott Pediasure là dòng chuyên sâu hỗ trợ mặt này. Đợt này em đăng ký cho anh/chị 1 lon Pediasure 380gr trải nghiệm nhé.
+Sales: Dạ trộm vía anh/chị chăm bé tốt. Giai đoạn này con cần phát triển thêm về não bộ và thị giác. Pediasure là dòng chuyên sâu hỗ trợ mặt này. Đợt này em đăng ký cho anh/chị 1 lon Pediasure 380gr trải nghiệm nhé.
 
 Customer: Ừ được, thử đi.
 
@@ -126,4 +126,4 @@ Sales: Số này anh/chị có Zalo không ạ? Sẽ có tin nhắn từ trang c
 
 Customer: Có chị.
 
-Sales: Em tên Hoa chịu trách nhiệm đơn hàng của anh/chị. Trong 48 tiếng kể từ lúc nhận nếu có vấn đề gì anh/chị gọi lại gặp em hoặc hotline 1900 1519. Em cảm ơn anh/chị đã tin tưởng Abbott. Chúc gia đình sức khỏe và bé hay ăn chóng lớn ạ.
+Sales: Em tên Hoa chịu trách nhiệm đơn hàng của anh/chị. Trong 48 tiếng kể từ lúc nhận nếu có vấn đề gì anh/chị gọi lại gặp em hoặc hotline của cửa hàng. Em cảm ơn anh/chị đã tin tưởng cửa hàng. Chúc gia đình sức khỏe và bé hay ăn chóng lớn ạ.

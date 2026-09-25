@@ -88,10 +88,10 @@ Step 7: Explain the inspection process when receiving.
 Khi nhận hàng anh/chị được kiểm tra đúng sữa đủ quà, đơn hàng còn nguyên vẹn không bị móp méo, quay video 6 mặt thùng hàng rồi mới thanh toán cho nhân viên giao hàng giúp em nha.
 
 Step 8: Confirm Zalo and explain QR codes.
-Em lên đơn hàng thành công rồi. Số này anh/chị có dùng Zalo không ạ? Sau cuộc gọi anh/chị sẽ nhận tin nhắn từ trang chính hãng Ensure, nhớ bấm quan tâm để theo dõi hành trình đơn hàng và mua hàng lần sau. Trên lon sữa có 2 mã QR, quét mã trên nắp lon để nhận thêm quà, quét mã dưới đáy lon để truy xuất nguồn gốc sản phẩm.
+Em lên đơn hàng thành công rồi. Số này anh/chị có dùng Zalo không ạ? Sau cuộc gọi anh/chị sẽ nhận tin nhắn từ trang Zalo của cửa hàng, nhớ bấm quan tâm để theo dõi hành trình đơn hàng và mua hàng lần sau. Trên lon sữa có 2 mã QR, quét mã trên nắp lon để nhận thêm quà, quét mã dưới đáy lon để truy xuất nguồn gốc sản phẩm.
 
 Step 9: Close the call and take personal responsibility.
-Em tên [tên] sẽ chịu trách nhiệm với đơn hàng của anh/chị. Trong 48 tiếng kể từ lúc nhận hàng nếu có vấn đề gì như móp méo hoặc thiếu quà, anh/chị gọi lại gặp em hoặc gọi hotline Abbott 1900 1519. Em cảm ơn anh/chị đã tin tưởng và sử dụng sản phẩm của Abbott. Chúc gia đình nhiều sức khỏe ạ.
+Em tên [tên] sẽ chịu trách nhiệm với đơn hàng của anh/chị. Trong 48 tiếng kể từ lúc nhận hàng nếu có vấn đề gì như móp méo hoặc thiếu quà, anh/chị gọi lại gặp em hoặc liên hệ hotline của cửa hàng. Em cảm ơn anh/chị đã tin tưởng và mua hàng tại cửa hàng. Chúc gia đình nhiều sức khỏe ạ.
 
 ---
 
@@ -131,11 +131,11 @@ Sales: Khi nhận hàng anh/chị được kiểm tra đúng sữa đủ quà, t
 
 Customer: Dạ em biết rồi.
 
-Sales: Số này anh/chị có dùng Zalo không ạ? Sau cuộc gọi sẽ có tin nhắn từ trang chính hãng Ensure, nhớ bấm quan tâm để theo dõi đơn hàng. Trên lon sữa có 2 mã QR, quét trên nắp lon nhận thêm quà, quét đáy lon truy xuất nguồn gốc.
+Sales: Số này anh/chị có dùng Zalo không ạ? Sau cuộc gọi sẽ có tin nhắn từ trang Zalo của cửa hàng, nhớ bấm quan tâm để theo dõi đơn hàng. Trên lon sữa có 2 mã QR, quét trên nắp lon nhận thêm quà, quét đáy lon truy xuất nguồn gốc.
 
 Customer: Có Zalo.
 
-Sales: Em tên Lan sẽ chịu trách nhiệm với đơn hàng của anh/chị. Trong 48 tiếng kể từ lúc nhận hàng nếu có vấn đề gì anh/chị gọi lại gặp em hoặc gọi hotline Abbott 1900 1519. Em cảm ơn anh/chị đã tin tưởng sử dụng sản phẩm của Abbott. Chúc gia đình nhiều sức khỏe ạ.
+Sales: Em tên Lan sẽ chịu trách nhiệm với đơn hàng của anh/chị. Trong 48 tiếng kể từ lúc nhận hàng nếu có vấn đề gì anh/chị gọi lại gặp em hoặc liên hệ hotline của cửa hàng. Em cảm ơn anh/chị đã tin tưởng mua hàng tại cửa hàng. Chúc gia đình nhiều sức khỏe ạ.
 
 ---
 
@@ -165,4 +165,4 @@ Sales: Hãng sẽ giao trong 2 đến 3 ngày tới, bác nhớ nghe điện tho
 
 Customer: Dạ bác biết rồi.
 
-Sales: Số này bác có dùng Zalo không ạ? Sau cuộc gọi sẽ có tin nhắn từ trang chính hãng Ensure, bác bấm quan tâm để theo dõi đơn hàng. Em tên Hương sẽ chịu trách nhiệm đơn hàng. Trong 48 tiếng kể từ lúc nhận nếu có vấn đề gì bác gọi lại gặp em hoặc hotline Abbott 1900 1519. Cảm ơn bác đã luôn tin tưởng Abbott. Chúc bác và gia đình thật nhiều sức khỏe ạ.
+Sales: Số này bác có dùng Zalo không ạ? Sau cuộc gọi sẽ có tin nhắn từ trang Zalo của cửa hàng, bác bấm quan tâm để theo dõi đơn hàng. Em tên Hương sẽ chịu trách nhiệm đơn hàng. Trong 48 tiếng kể từ lúc nhận nếu có vấn đề gì bác gọi lại gặp em hoặc hotline của cửa hàng. Cảm ơn bác đã luôn tin tưởng cửa hàng. Chúc bác và gia đình thật nhiều sức khỏe ạ.

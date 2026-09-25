@@ -1,5 +1,12 @@
 <a id="readme-top"></a>
 
+**AN AI SALES ASSISTANT THAT SELLS LIKE A HUMAN — ON ZALO**
+
+[![Python][Python-shield]][Python-url] [![FastAPI][FastAPI-shield]][FastAPI-url] [![AgentScope][Pydantic-shield]][Pydantic-url] [![OpenAI][OpenAI-shield]][OpenAI-url]
+[![PostgreSQL][PostgreSQL-shield]][PostgreSQL-url] [![Redis][Redis-shield]][Redis-url] [![Docker][Docker-shield]][Docker-url] [![Nginx][Nginx-shield]][Nginx-url] [![Jinja2][Jinja2-shield]][Jinja2-url]
+
+> 🌐 **Tiếng Việt:** [README.vi.md](README.vi.md)
+
 ## Overview
 
 A multi-service AI chatbot that lives inside **Zalo** — Vietnam's #1 messaging app.<br />
@@ -230,16 +237,6 @@ When a customer says "Ba em bị tiểu đường" (My dad has diabetes), the AI
 | **Infra** | Docker Compose, Nginx, Alembic |
 | **Channel** | Zalo OA Bot API |
 
-[![Python][Python-shield]][Python-url]
-[![FastAPI][FastAPI-shield]][FastAPI-url]
-[![PostgreSQL][PostgreSQL-shield]][PostgreSQL-url]
-[![Redis][Redis-shield]][Redis-url]
-[![Docker][Docker-shield]][Docker-url]
-[![Pydantic][Pydantic-shield]][Pydantic-url]
-[![OpenAI][OpenAI-shield]][OpenAI-url]
-[![Jinja2][Jinja2-shield]][Jinja2-url]
-[![Nginx][Nginx-shield]][Nginx-url]
-
 ---
 
 ## Getting Started
@@ -360,13 +357,11 @@ We follow [Conventional Commits](https://www.conventionalcommits.org/) — use `
 
 ---
 
-## License
-
-Distributed under the **GNU General Public License v3.0**. See `LICENSE` for more information.
-
 ## Contact
 
-**Dairy AI** — [Project Link](https://github.com/Ekanara/Dairy_Retail_Zalo_Bot)
+**Vu Anh Khoi** · [@Ekanara](https://github.com/Ekanara)
+
+Project: [Dairy_Retail_Zalo_Bot](https://github.com/Ekanara/Dairy_Retail_Zalo_Bot)
 
 ## Acknowledgments
 
